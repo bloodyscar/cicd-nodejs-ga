@@ -3,6 +3,6 @@ const app = express()
 
 app.get('/', (req, res) => res.send('This App is running properly!'))
 app.get('/ping', (req, res) => res.send('Pong!'))
-app.get('/youtube', (req, res) => res.send('Hello, youtuberrrr 3x indonesiaaaa!'))
+app.get('/youtube', (req, res) => res.send('Hello, youtubeindonesiaaaa!'))
 
 module.exports = app
