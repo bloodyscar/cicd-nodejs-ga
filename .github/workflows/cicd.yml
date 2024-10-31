@@ -19,5 +19,7 @@ jobs:
         script: |
           cd /home/adith/cicd-nodejs-ga
           git pull origin master
+          export NVM_DIR=~/.nvm
+          source ~/.nvm/nvm.sh
           npm install
           pm2 restart index
