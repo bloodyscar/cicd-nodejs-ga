@@ -18,7 +18,7 @@ jobs:
         port: 22
         script: |
           cd /home/adith/cicd-nodejs-ga
-          git pull origin master
+          git pull origin main
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
           npm install
